@@ -1,10 +1,13 @@
 <div align="center">
+  
+<img src="assets/icon.png" />
 
 # Min Darkest Dracula - VS Code Theme
 
 A mix between Min Darkest and Darker Night Dracula themes
 
 <img src="assets/preview_01.png" />
+<br />
 <br />
 <img src="assets/preview_02.png" />
 
