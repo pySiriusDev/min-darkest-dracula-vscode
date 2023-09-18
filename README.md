@@ -6,6 +6,8 @@
 
 A mix between Min Darkest and Darker Night Dracula themes
 
+<br />
+
 <img src="assets/preview_01.png" />
 <br />
 <br />
@@ -13,23 +15,24 @@ A mix between Min Darkest and Darker Night Dracula themes
 
 </div>
 
+<br />
+
 ## Installation
 
 ### From VS Code marketplace:
-
 - Press **`CTRL + P`**
 - Copy and paste the command **`ext install SiriusDev.min-darkest-dracula-vscode`**
 - Press **`ENTER`**<br>
 
 ### From .vsix file:
+- Download the latest version [here](https://github.com/pySiriusDev/min-darkest-dracula-vscode/releases/latest).
+- In vscode press **`F1`**
+- Type **`vsix`** and click **`Extensions: Install from VSIX...`**
+- Select the downloaded *.vsix file
 
-- Baixe a última versão [aqui](https://github.com/pySiriusDev/min-darkest-dracula-vscode/releases/latest).
-- No vscode pressione **`F1`**
-- Digite **`vsix`** e clique em **`Extensions: Install from VSIX...`**
-- Selecione o arquivo baixdo<br><br><br>
+<br />
 
 ## Links
-
 [GitHub Repository](README.md)<br>
 [Instagram: @biellviana](https://instagram.com/biellviana)<br>
 [Twitter: @\_siriusbeck](https://twitter.com/_siriusbeck)
