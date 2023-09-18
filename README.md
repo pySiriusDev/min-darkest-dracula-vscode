@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="assets/icon.png" />
+<img src="assets/icon.png" width="200" />
 
 # Min Darkest Dracula - VS Code Theme
 
