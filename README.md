@@ -1,8 +1,12 @@
 <div align="center">
 
-# Min Dracula Theme
+# Min Darkest Dracula - VS Code Theme
 
 A mix between Min Darkest and Darker Night Dracula themes
+
+<img src="assets/preview_01.png" />
+<br />
+<img src="assets/preview_02.png" />
 
 </div>
 
@@ -25,4 +29,4 @@ A mix between Min Darkest and Darker Night Dracula themes
 
 [GitHub Repository](README.md)<br>
 [Instagram: @biellviana](https://instagram.com/biellviana)<br>
-[Twitter: @_siriusbeck](https://twitter.com/_siriusbeck)
+[Twitter: @\_siriusbeck](https://twitter.com/_siriusbeck)
