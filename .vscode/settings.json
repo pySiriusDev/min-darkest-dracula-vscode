@@ -8,5 +8,7 @@
     "**/Thumbs.db": true,
     "node_modules": true
   },
-  "hide-files.files": ["node_modules"]
+  "hide-files.files": [
+    "node_modules"
+  ]
 }

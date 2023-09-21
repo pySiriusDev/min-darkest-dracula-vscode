@@ -395,7 +395,7 @@ tokenColors:
   - scope:
       - emphasis
     settings:
-      fontStyle: italic
+      fontStyle: normal
   - scope:
       - strong
     settings:
@@ -428,12 +428,12 @@ tokenColors:
       - invalid
     settings:
       foreground: *RED
-      fontStyle: underline italic
+      fontStyle: underline
   - scope:
       - invalid.deprecated
     settings:
       foreground: *FG
-      fontStyle: underline italic
+      fontStyle: underline
   - scope:
       - entity.name.filename
     settings:
@@ -575,13 +575,13 @@ tokenColors:
       - variable.parameter.function.language.special # Special words as parameters
     settings:
       foreground: *PURPLE
-      fontStyle: italic
+      fontStyle: normal
 
   - name: Inherited classes
     scope:
       - entity.other.inherited-class
     settings:
-      fontStyle: italic
+      fontStyle: normal
       foreground: *CYAN
 
   # =============================================================================
@@ -610,7 +610,7 @@ tokenColors:
       - comment.block.documentation entity.name.type
     settings:
       foreground: *CYAN
-      fontStyle: italic
+      fontStyle: normal
 
   - name: JSDoc-style type brackets
     scope:
@@ -623,7 +623,7 @@ tokenColors:
       - comment.block.documentation variable
     settings:
       foreground: *ORANGE
-      fontStyle: italic
+      fontStyle: normal
 
   # =============================================================================
   # Constants
@@ -665,7 +665,7 @@ tokenColors:
       - entity.other.attribute-name
     settings:
       foreground: *GREEN
-      fontStyle: italic
+      fontStyle: normal
 
   # =============================================================================
   # Functions/Methods
@@ -693,7 +693,7 @@ tokenColors:
       - meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql
       - variable.parameter
     settings:
-      fontStyle: italic
+      fontStyle: normal
       foreground: *ORANGE
 
   - name: Decorators
@@ -702,7 +702,7 @@ tokenColors:
       - meta.decorator variable.other.property
     settings:
       foreground: *GREEN
-      fontStyle: italic
+      fontStyle: normal
 
   - name: Decorator Objects
     scope:
@@ -742,7 +742,7 @@ tokenColors:
     scope:
       - support
     settings:
-      fontStyle: italic
+      fontStyle: normal
       foreground: *CYAN
 
   - name: Built-in magic functions and constants
@@ -856,7 +856,7 @@ tokenColors:
     scope:
       - variable.other.alias.yaml
     settings:
-      fontStyle: italic underline
+      fontStyle: underline
       foreground: *GREEN
 
   # =============================================================================
@@ -895,7 +895,7 @@ tokenColors:
       - storage.type.haskell
       - storage.type.ocaml
     settings:
-      fontStyle: italic
+      fontStyle: normal
       foreground: *CYAN
 
   - name: Generics, templates, and mapped type declarations
@@ -1019,7 +1019,7 @@ tokenColors:
       - meta.import variable.other.readwrite # Module import aliasing (real name)
       - meta.variable.assignment.destructured.object.coffee variable # Object destructuring property (coffeescript)
     settings:
-      fontStyle: italic
+      fontStyle: normal
       foreground: *ORANGE
 
   - name: Destructuring / aliasing variable name (RHS)
