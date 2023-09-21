@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 <img src="assets/icon.png" width="200" />
 
 # Min Darkest Dracula - VS Code Theme
@@ -21,7 +21,7 @@ A mix between Min Darkest and Darker Night Dracula themes
 
 ### From VS Code marketplace:
 - Press **`CTRL + P`**
-- Copy and paste the command **`ext install SiriusDev.min-darkest-dracula-vscode`**
+- Copy and paste the command **`ext install SiriussDev.min-darkest-dracula`**
 - Press **`ENTER`**<br>
 
 ### From .vsix file:
