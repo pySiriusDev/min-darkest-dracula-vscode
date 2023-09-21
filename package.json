@@ -1,18 +1,11 @@
 {
   "name": "min-darkest-dracula",
-  "publisher": "SiriusDev",
   "displayName": "Min Darkest Dracula",
-  "description": "A mix between Min Darkest and Darker Night Dracula themes",
-  "version": "1.0.0",
-  "author": {
-    "name": "Gabriel Viana",
-    "url": "https://github.com/pySiriusDev"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pySiriusDev/min-darkest-dracula-vscode"
-  },
+  "version": "2.0.0",
+  "description": "A mix between Min Darkest and Darker Night Dracula themes.",
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "dracula",
     "dark",
@@ -23,24 +16,51 @@
     "min theme",
     "min dark"
   ],
-  "icon": "assets/icon.png",
-  "galleryBanner": {
-    "color": "#111111",
-    "theme": "dark"
+  "homepage": "https://github.com/pySiriusDev/min-darkest-dracula-vscode",
+  "bugs": {
+    "url": "https://github.com/pySiriusDev/min-darkest-dracula-vscode/issues"
   },
-  "engines": {
-    "vscode": "^1.82.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pySiriusDev/min-darkest-dracula-vscode.git"
   },
-  "categories": [
-    "Themes"
+  "license": "MIT",
+  "author": {
+    "name": "Sirius Dev",
+    "email": "siriusdev@outlook.com",
+    "url": "https://github.com/pySiriusDev"
+  },
+  "maintainers": [
+    "Sirius Dev"
   ],
+  "publisher": "SiriusDev",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "vsce:package": "vsce package -o ./dist/min-darkest-dracula.vsix",
+    "vsce:publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Min Darkest Dracula",
         "uiTheme": "vs-dark",
-        "path": "./themes/min-darkest-dracula.json"
+        "path": "./theme/min-darkest-dracula.json"
       }
     ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.0.0",
+    "tinycolor2": "^1.6.0",
+    "vsce": "^2.15.0"
+  },
+  "engines": {
+    "vscode": "^1.82.2"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#111111",
+    "theme": "dark"
   }
 }

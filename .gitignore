@@ -1,3 +1,4 @@
-node_modules
-*.vsix
-dist
+node_modules/
+/theme/
+/tests/
+dist/
