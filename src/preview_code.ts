@@ -2,22 +2,25 @@
  * Once upon a time
  */
 
-interface IVampire {
+class Vampire {
   location: string
   birthDate: number
   deathDate: number
   weaknesses: string[]
-}
 
-class Vampire {
-  constructor(public props: IVampire) {}
+  constructor(props) {
+    this.location = props.location
+    this.birthDate = props.birthDate
+    this.deathDate = props.deathDate
+    this.weaknesses = props.weaknesses
+  }
 
   get age() {
     return this.calcAge()
   }
 
   calcAge() {
-    return this.props.deathDate - this.props.birthDate
+    return this.deathDate - this.birthDate
   }
 }
 
