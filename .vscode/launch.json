@@ -9,7 +9,7 @@
       "name": "Launch Theme",
       "type": "extensionHost",
       "request": "launch",
-      "preLaunchTask": "yarn build",
+      "preLaunchTask": "npm: build",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}"
       ]
@@ -18,7 +18,7 @@
       "name": "Launch Theme (without extensions)",
       "type": "extensionHost",
       "request": "launch",
-      "preLaunchTask": "yarn build",
+      "preLaunchTask": "npm: build",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}",
         "--disable-extensions"
