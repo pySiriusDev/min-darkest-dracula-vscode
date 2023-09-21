@@ -45,7 +45,7 @@
       {
         "label": "Min Darkest Dracula",
         "uiTheme": "vs-dark",
-        "path": "./theme/min-darkest-dracula.json"
+        "path": "./themes/min-darkest-dracula.json"
       }
     ]
   },
